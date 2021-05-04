@@ -1,0 +1,37 @@
+html, body {
+  color:white;
+  margin:0;
+  padding:0;
+}
+#root {
+  background-color:darkslategray;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.distinto {
+  background-color:orange;
+
+}
+#display {
+  background-color:black;
+  color:lightgreen;
+  font-family:"Press start 2p";
+  margin:0;
+  border:2px solid lightgreen;
+}
+.bottom-button {
+  background-color:hotpink;
+  font-weight:bold;
+}
+.calculator {
+  background-color:dodgerblue;
+  border:2px solid black;
+  min-width:250px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
